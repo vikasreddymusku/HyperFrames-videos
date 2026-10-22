@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 668.778,
+        "selector": "div.object-index",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1046.27,
+          "top": 698,
+          "right": 1838.98,
+          "bottom": 758,
+          "width": 792.72,
+          "height": 60
+        },
+        "containerSelector": "#tables",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1046.27,
+          "top": 399,
+          "right": 1838.98,
+          "bottom": 744,
+          "width": 792.72,
+          "height": 345
+        },
+        "overflow": {
+          "bottom": 14
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1046.27,
+          "y": 698,
+          "width": 792.72,
+          "height": 60
+        },
+        "firstSeen": 668.778,
+        "lastSeen": 668.778,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          668.778
+        ]
+      }
+    ],
+    "duration": 926,
+    "samples": [
+      51.444,
+      154.333,
+      257.222,
+      360.111,
+      463,
+      565.889,
+      668.778,
+      771.667,
+      874.556
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      51.444,
+      257.222,
+      463,
+      668.778,
+      874.556
+    ],
+    "checked": 203,
+    "passed": 203
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
